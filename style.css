@@ -1,0 +1,95 @@
+body
+{
+    display: flex;
+    background-color: #F0F0F0;
+}
+@font-face {
+    font-family:customfont;
+    src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+.Ext
+{
+    width:40vw;
+    height: 70vh;
+    margin:10vh 30vw;
+    padding-left:5vw;
+    border-radius:20px 20px 100px 20px;
+    background-color: white;
+}
+.Input
+{
+    width: 40vw;
+    height:20vh;
+}
+.InputBox
+{
+    padding:5px 10px;
+    margin-top:10vh;
+    margin-right:1vw;
+    width:20vw;
+    height:7vh;
+    background-color: hsl(258, 91%, 91%);
+    border: none;
+    border-radius:10px;
+}
+#Submit
+{
+    font-family: 'Poppins', sans-serif;
+    font-size:medium;
+    font-weight:lighter;
+    width:10vw;
+    height:8vh;
+    border: none;
+    border-radius:10px;
+    background-color:hsl(259, 91%, 70%);
+}
+.InputBox:focus
+{
+    outline: none;
+}
+#Submit:hover
+{
+    background-color: hsl(259, 100%, 65%);
+}
+.Seperator
+{
+    width:40vw;
+    height:10vh;
+}
+#Linebreak
+{
+    display: inline-block;
+    width:33vw;
+    text-align: left;
+    margin-bottom:3vh;
+   
+}
+#DownArrow
+{
+    width:20px;
+    height:20px;
+    background-color: black;
+    padding:10px;
+    border-radius: 100px;
+}
+.Result
+{
+
+    font-family:customfont;
+    font-size:300%;
+    font-weight: 800;
+    line-height:1vw;
+    width:40vw;
+    height:40vh;
+}
+.OutputSize
+{
+    margin-top:2vh;
+    width:40vw;
+    height:10vh;
+
+}
+.violet
+{
+   color: hsl(259, 100%, 65%);
+}

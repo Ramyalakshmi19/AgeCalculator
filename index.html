@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Age calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="Ext">
+    <div class="Input">
+      <input type="date" id="InputDate" class="InputBox" max="2023-11-12" required>
+      <button type="submit" onclick="calculatefunc()" id="Submit">Calculate</button>
+    </div>
+    <div class="Seperator">
+      <hr id="Linebreak"><span>
+        <img id="DownArrow" src="./assets/images/icon-arrow.svg"></span>
+    </div>
+    <div class="Result">
+      <div class="OutputSize" ><span class="violet" id="year">_ _</span><span> years</span></div>
+      <div class="OutputSize" ><span class="violet" id="month">_ _</span><span> months</span></div>
+      <div class="OutputSize"><span  class="violet" id="day">_ _</span><span> days</span></div>
+    </div>
+  </div>
+  <p id="demo"></p>
+  <script src="./Script.js"></script>
+</body>
+</html>
